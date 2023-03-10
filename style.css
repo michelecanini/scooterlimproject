@@ -1,0 +1,112 @@
+/* background e contenitori */
+
+body {
+    background-image: url(img/background.jpg) ;
+    background-size: cover;
+}
+
+.container{
+    width: 1200px;
+    height: 850px;
+    background-color: rgba(5, 6, 6, 0.516);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.container2{
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+}
+
+/* logo e testo del logo */
+
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.logo-text{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: rgb(63, 252, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+/* input e testo dei pulsanti */
+
+.button-container{
+    display: block;
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(63, 252, 0);
+    margin: auto;
+    text-align: center;
+}
+
+.button{
+    margin-top: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* lista degli scooter con posizione 
+e stato batteria*/
+
+.scooter-container{
+    padding-top: 20px;
+    }
+
+.scooter-name{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;    
+    color: aliceblue;
+    font-weight: bold;
+    font-size:25px;
+}
+
+.scooter-position{
+    display: block;
+    font-family: 'Poppins', sans-serif;    
+    color: aliceblue;
+    font-size:17px;
+}
+
+.scooter-position:before{
+    content: "\21A6";
+}
+
+.scooter-charge{
+    display: block;
+    font-family: 'Poppins', sans-serif;    
+    color: aliceblue;
+    font-size:17px;
+}
+
+.charge-bar1{
+    background-color: rgb(184, 157, 1);
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.charge-bar2{
+    background-color: rgb(21, 255, 0);
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.charge-bar3{
+    background-color: rgb(153, 0, 0);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
